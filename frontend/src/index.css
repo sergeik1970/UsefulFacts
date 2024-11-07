@@ -1,0 +1,182 @@
+body {
+    font-family: sans-serif;
+
+}
+
+h1 {
+    text-align: center;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    max-width: 90%;
+    margin: auto;
+}
+
+.card {
+    background-color: rgb(235, 235, 235);
+    margin-right: 30px;
+    max-width: 500px;
+    width: 90%;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 30px;
+    box-shadow: 10px 10px 10px rgb(203, 203, 203);
+    display: none;
+
+}
+
+.card__title {
+    text-align: center;
+}
+
+.card img {
+    max-width: 100%;
+    object-fit: cover;
+    height: 300px;
+    display: block;
+    margin: auto;
+}
+
+.card__text {
+    padding: 20px;
+    text-align: justify;
+}
+
+.card__icons {
+    display: flex;
+    justify-content:space-between;
+    width: 30%;
+    margin: auto;
+}
+
+/* Категория */
+
+.badge {
+    background-color: rgb(24, 76, 0);
+    color: white;
+    padding: 4px 8px;
+    text-align: center;
+    border-radius: 5px;
+    width: max-content;
+    margin-left: auto;
+    margin-top: 10px;
+    display: block;
+  }
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid rgb(148, 190, 244);
+    padding: 5px;
+}
+tr:hover {
+    background-color: rgb(135, 230, 135);
+    transition: 0.1s;
+}
+
+.table__name {
+    font-weight: bold;
+    background-color: rgb(116, 242, 116);
+}
+/* Иконки */
+.icon {
+    padding: 3px;
+    display: block;
+    font-size: 1.2rem;
+}
+
+.icon__create {
+    font-size: 2rem;
+    color:rgb(34, 134, 34)
+}
+
+.icon__details {
+    color: rgb(62, 95, 196);
+}
+
+.icon__edit {
+    color: rgb(12, 114, 41);
+}
+
+.icon__delete {
+    color: rgb(243, 53, 53);
+}
+
+.icon__back {
+    color: rgb(255, 157, 0);
+    font-size: 2rem;
+}
+
+.fact__info {
+    width: 100%;
+    margin: auto;
+    max-width: 900px;
+}
+
+.fact__info img {
+    max-width: 100%;
+    object-fit: cover;
+    height: 500px;
+    display: block;
+    margin: auto;
+}
+
+.fact__title {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.fact__source {
+    font-size: 1.1rem;
+}
+
+.fact__category {
+    font-size: 1.1rem;
+}
+
+/* Form */
+
+form {
+    max-width: 600px;
+    margin: auto;
+}
+
+label, input, textarea {
+    display: block;
+    width: 100%;
+}
+
+textarea {
+    resize: none;
+}
+
+label {
+    font-weight: bold;
+}
+
+.filter__button {
+    margin: 10px;
+    text-decoration: none;
+    background: none;
+    border: none;
+    padding: 15px;
+}
+
+.filter__button:hover {
+    background: grey;
+    color: white;
+    transition: 300ms;
+}
+
+.filter__button:active {
+    background: rgb(88, 88, 88);
+    color: rgb(190, 190, 190);
+}
+
+.show {
+    display: block;
+}

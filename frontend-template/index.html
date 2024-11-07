@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Useful Facts</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <h1>Useful Facts</h1>
+
+        <div class="buttons">
+            <button class="filter__button active" onclick="filterSelection('all')">Show All</button>
+            <button class="filter__button" onclick="filterSelection('land')">Land</button>
+            <button class="filter__button" onclick="filterSelection('water')">Water</button>
+            <button class="filter__button" onclick="filterSelection('life')">Life</button>
+        </div>
+
+        <div id="cards" class="cards">
+            <div class="card" data-type="land">
+                <img src="https://images.unsplash.com/photo-1629357503818-01cea6c2f598?q=80&w=500" alt="">
+                <h2>Mountains</h2>
+                <p>Lorem, ipsum dolor..</p>
+                <a href="fact.html">Read More</a>
+            </div>
+
+            <div class="card" data-type="water">
+                <img src="https://images.unsplash.com/photo-1628895272659-c9c1642b9471?q=80&w=500" alt="">
+                <h2>Lakes</h2>
+                <p>Lorem, ipsum dolor..</p>
+                <a href="fact.html">Read More</a>
+            </div>
+
+            <div class="card" data-type="water">
+                <img src="https://images.unsplash.com/photo-1636296952943-5a3e1d428d5f?q=80&w=500" alt="">
+                <h2>Rivers</h2>
+                <p>Lorem, ipsum dolor..</p>
+                <a href="fact.html">Read More</a>
+            </div>
+
+            <div class="card" data-type="land">
+                <img src="https://images.unsplash.com/photo-1515581247767-d78687bf2254?q=80&w=500" alt="">
+                <h2>Deserts</h2>
+                <p>Lorem, ipsum dolor..</p>
+                <a href="fact.html">Read More</a>
+            </div>
+
+            <div class="card" data-type="life">
+                <img src="https://images.unsplash.com/photo-1694217076602-d2a58326f590?q=80&w=500" alt="">
+                <h2>Sharks</h2>
+                <p>Lorem, ipsum dolor..</p>
+                <a href="fact.html">Read More</a>
+            </div>
+
+            <div class="card" data-type="life">
+                <img src="https://images.unsplash.com/photo-1597953601374-1ff2d5640c85?q=80&w=500" alt="">
+                <h2>Pandas</h2>
+                <p>Lorem, ipsum dolor..</p>
+                <a href="fact.html">Read More</a>
+            </div>
+        </div>
+
+        <script src="script.js"></script>
+
+</body>
+
+</html>
