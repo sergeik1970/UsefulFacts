@@ -83,7 +83,7 @@ const CreateFact = () => {
                 <select value={category} type='text' className='from-control' onChange={(e) => setCategory(e.target.value)} id="categoryInput">
                     <option value="nature">Nature</option>
                     <option value="animals">Animals</option>
-                    <option value="tecnology">Tecnology</option>
+                    <option value="technology">Technology</option>
                     <option value="architecture">Architecture</option>
                 </select>
                 </p>

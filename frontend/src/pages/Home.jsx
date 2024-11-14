@@ -32,7 +32,7 @@ const Home = () => {
                     <button className="filter__button active" datatype="all" id="button__all">Show All</button>
                     <button className="filter__button" datatype="animals" id="button__animals">Animals</button>
                     <button className="filter__button" datatype="nature" id="button__nature">Nature</button>
-                    <button className="filter__button" datatype="technologies" id="button__tech">Technologies</button>
+                    <button className="filter__button" datatype="technology" id="button__tech">Technology</button>
                 </div>
                 <Link to={`facts/create/`} className="icon icon__create">
                     <BsPlusCircle />

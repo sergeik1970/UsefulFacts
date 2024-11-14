@@ -15,7 +15,7 @@ document.getElementById('button__nature').addEventListener('click', () => {
 });
 
 document.getElementById('button__tech').addEventListener('click', () => {
-    filterSelection('tech');
+    filterSelection('technology');
 });
 
 
@@ -52,3 +52,4 @@ function filterSelection(query) {
 //         button.classList.add('active');
 //     });
 // }
+filterSelection('all');

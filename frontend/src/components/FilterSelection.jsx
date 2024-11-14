@@ -13,7 +13,7 @@ const FilterSelection = () => {
 
     return (
          <div>
-            <p>Пока тут ничего нет...</p>
+            
          </div>
     );
 }
